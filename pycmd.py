@@ -7,7 +7,7 @@ while True:
 
     if cmd == "help":
         print("PyCMD 1.0 Test     Realese")
-        print("￼help, crash, exit￼,  ver, say, python")
+        print("￼help, crash, exit￼,  ver, say")
         
     if cmd == "crash":
         while True:
@@ -22,10 +22,5 @@ while True:
     if cmd == "say":
         say = input("Say: ")
         print(say)
-     
-    if cmd == "unix":
-        import os
-        while True:
-            unix = input("UNIX: ")
-            os.system(unix)
+    
         
